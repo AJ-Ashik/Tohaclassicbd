@@ -1,1 +1,7 @@
 ErrorDocument 404 /404.html
+
+
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile {index.html}
+Require valid-user
